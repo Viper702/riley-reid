@@ -1,0 +1,27 @@
+{
+  "name": "Hubot for Telegram",
+  "description": "One-button deploy for Hubot on Heroku with Telegram adapter.",
+  "logo": "https://i.cloudup.com/_823ueoTYl.png",
+  "repository": "https://github.com/viper702/riley-reid",
+  "env": {
+    "HEROKU_URL": {
+      "description": "Url of this app so hubot can regularly ping himself to stay awake.",
+      "value": "https://riley-reid.herokuapp.com/"
+    },
+    "TELEGRAM_TOKEN": {
+      "description": "Telegram Token"
+      "value": "1890055471:AAGpEqbxbTihAQcnXuhIuegQSA3nJAFyLas"
+    },
+    "TELEGRAM_WEBHOOK": {
+      "description": "You can specify a webhook URL. The adapter will register TELEGRAM_WEBHOOK/TELEGRAM_TOKEN with Telegram and listen there.",
+      "required": false
+    },
+    "TELEGRAM_INTERVAL": {
+      "description": "You can specify the interval (in milliseconds) in which the adapter will poll Telegram for updates. This option only applies if you are not using a webhook.",
+      "required": false
+    }
+  },
+  "addons": [
+    "rediscloud"
+  ]
+}
