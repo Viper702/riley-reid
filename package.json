@@ -30,14 +30,18 @@
     "hubot-google-images": "^0.2.7",
     "hubot-help": "^1.0.1",
     "hubot-keepalive": "0.0.2",
+    "hubot-keys": "^2.1.2",
     "hubot-learn": "^2.0.0",
+    "hubot-links": "0.0.1",
     "hubot-maps": "0.0.3",
+    "hubot-qr-generator": "^1.1.1",
     "hubot-redis-brain": "^1.0.0",
     "hubot-rollin": "^1.1.0",
+    "hubot-script-shellcmd": "^1.0.1",
     "hubot-scripts": "^2.17.2",
     "hubot-seen": "^2.0.0",
     "hubot-shipit": "^0.2.1",
-    "hubot-telegram": "0.1.0"
+    "hubot-webhook": "^0.1.5"
   },
   "engines": {
     "node": ">= 0.8.x",

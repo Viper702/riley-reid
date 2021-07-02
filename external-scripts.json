@@ -1,4 +1,3 @@
-
 [
 "hubot-alias",
 "hubot-auth",
@@ -7,10 +6,14 @@
 "hubot-diagnostics",
 "hubot-google-images",
 "hubot-help",
+"hubot-keys",
 "hubot-learn",
+"hubot-links",
 "hubot-maps",
+"hubot-qr-generator",
 "hubot-redis-brain",
 "hubot-rollin",
 "hubot-seen",
-"hubot-shipit"
+"hubot-shipit",
+"hubot-webhook"
 ]
